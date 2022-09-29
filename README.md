@@ -28,5 +28,13 @@ To see if the tracking portion was unusually slow, Talmo suggested running the t
 
 ## Project Specific Troubles
 
-Anousheh's project is currently struggling with a very strange threading problem.
+Anousheh's project is currently struggling with a very strange threading problem. You can see a discussion made about it [here](https://github.com/talmolab/sleap/discussions/894#discussioncomment-3329101).  An issue will be made in the near future to further delve into the problem.
+
+I just confirmed with Anousheh the following:
+- Occurs intermittently
+- No machine is safe from the problem
+- Pointing to correct drivers does not protect you
+- Occurs only in the *training* portion of SLEAP's workflow.
+
+
 
